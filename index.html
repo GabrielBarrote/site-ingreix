@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Germany: A Modern Presentation</title>
+    <meta name="description" content="An educational overview of Germany including culture, history, famous figures, and modern challenges.">
+    <!-- Google Fonts: Modern sans-serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">DE</div>
+        <ul class="nav-links">
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#football">Football</a></li>
+            <li><a href="#engineering">Engineering</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#architecture">Architecture</a></li>
+            <li><a href="#map">Map</a></li>
+            <li><a href="#places">Places</a></li>
+            <li><a href="#challenges">Modern Era</a></li>
+        </ul>
+    </nav>
+
+    <!-- Scroll Progress line -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress" id="scroll-progress"></div>
+    </div>
+
+    <!-- Main Content wrapper -->
+    <main>
+        <!-- 1. Introduction -->
+        <section id="intro" class="section hero-section animate-on-scroll">
+            <div class="hero-bg"></div>
+            <div class="content-wrapper">
+                <div class="text-content glass-panel">
+                    <h1>Discover <span class="highlight-gold">Germany</span></h1>
+                    <p class="subtitle">Federal Republic of Germany</p>
+                    <ul class="facts-list">
+                        <li><strong>Location:</strong> Central Europe</li>
+                        <li><strong>Capital:</strong> Berlin</li>
+                        <li><strong>Population:</strong> ~84 Million</li>
+                        <li><strong>Official Language:</strong> German</li>
+                    </ul>
+                    <p class="description">Germany is a leading economic and political power in Europe, known for its rich history, technological achievements, and cultural heritage.</p>
+                </div>
+                <div class="image-content" id="img-intro">
+                    <!-- Image will be injected via JS or directly later -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Culture and Daily Life -->
+        <section id="culture" class="section dark-section animate-on-scroll">
+            <div class="content-wrapper row-reverse">
+                <div class="text-content">
+                    <h2>Culture & <span class="highlight-red">Daily Life</span></h2>
+                    <p>German culture is famous for its organization, hearty food, and festive spirit.</p>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <h3>Cuisine</h3>
+                            <p>Staples include Bratwurst (sausages), Pretzels (Brezel), and various types of Schnitzel. Bread is considered a cornerstone of the German diet.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>Festivals</h3>
+                            <p>Oktoberfest in Munich is the world's largest Volksfest, celebrating Bavarian culture, beer, and traditional clothing like Lederhosen and Dirndl.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>Daily Routine</h3>
+                            <p>Punctuality (Pünktlichkeit) is highly valued. Sundays are generally observed as a rest day (Ruhetag), with most shops closed.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-content" id="img-culture"></div>
+            </div>
+        </section>
+
+        <!-- 3. Football -->
+        <section id="football" class="section animate-on-scroll">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2>The Passion for <span class="highlight-gold">Football</span></h2>
+                    <p>Football (Soccer) is the most popular sport in Germany, deeply embedded in the national consciousness.</p>
+                    
+                    <div class="stats-container">
+                        <div class="stat-box">
+                            <span class="stat-number" data-target="4">0</span>
+                            <span class="stat-label">World Cups</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">Euro Cups</span>
+                        </div>
+                    </div>
+
+                    <ul class="styled-list">
+                        <li><strong>National Team:</strong> Die Mannschaft is one of the most successful teams globally.</li>
+                        <li><strong>Bundesliga:</strong> The top-tier domestic league boasts the highest average stadium attendance worldwide.</li>
+                        <li><strong>Major Clubs:</strong> FC Bayern Munich is the most successful club historically, alongside fierce rivals like Borussia Dortmund (BVB).</li>
+                    </ul>
+                </div>
+                <div class="image-content hover-zoom" id="img-football"></div>
+            </div>
+        </section>
+
+        <!-- 3.5 Engineering -->
+        <section id="engineering" class="section dark-section animate-on-scroll parallax-bg" style="background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/mercedes_benz_1773008340507.png');">
+            <div class="glass-overlay"></div>
+            <div class="container-column relative-z">
+                <h2 class="text-center">German <span class="highlight-red">Engineering</span></h2>
+                <p class="text-center lead-text" style="color: white; max-width: 800px; margin: 0 auto;">German cars are famous worldwide for their unmatched quality, precision, and relentless engineering innovation.</p>
+                
+                <div class="flip-cards-container">
+                    <!-- Card 1 -->
+                    <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front" id="img-mercedes">
+                                <h3 class="card-title-overlay">Mercedes-Benz</h3>
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Mercedes-Benz</h3>
+                                <p>Symbolizing luxury and pioneering engineering innovation. They are known for introducing many technological and safety features that later became common in other vehicles.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front" id="img-bmw">
+                                <h3 class="card-title-overlay">BMW</h3>
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>BMW</h3>
+                                <p>"The Ultimate Driving Machine." BMW focuses heavily on performance, driver experience, and aggressive modern design.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front" id="img-audi">
+                                <h3 class="card-title-overlay">Audi</h3>
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Audi</h3>
+                                <p>Renowned for their "Vorsprung durch Technik" (Advancement through Technology), featuring modern, sleek designs and the famous Quattro all-wheel-drive system.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Historical Figures -->
+        <section id="history" class="section dark-section animate-on-scroll">
+            <div class="container-column">
+                <h2 class="text-center">Famous <span class="highlight-red">Figures</span></h2>
+                <div class="timeline">
+                    
+                    <div class="timeline-item interactive-timeline" onclick="this.classList.toggle('active')">
+                        <div class="timeline-img" id="img-beethoven"></div>
+                        <div class="timeline-content">
+                            <h3>Ludwig van Beethoven</h3>
+                            <span class="timeline-era">1770 - 1827</span>
+                            <p class="timeline-details">A legendary classical composer and pianist. He remains one of the most admired composers in the history of Western music whose works rank amongst the most performed of the classical music repertoire.</p>
+                            <span class="expand-hint">Click to expand</span>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item interactive-timeline" onclick="this.classList.toggle('active')">
+                        <div class="timeline-img" id="img-bismarck"></div>
+                        <div class="timeline-content">
+                            <h3>Otto von Bismarck</h3>
+                            <span class="timeline-era">1815 - 1898</span>
+                            <p class="timeline-details">Known as the "Iron Chancellor", he was a conservative Prussian statesman who masterminded the unification of Germany in 1871 and served as its first chancellor.</p>
+                            <span class="expand-hint">Click to expand</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item interactive-timeline" onclick="this.classList.toggle('active')">
+                        <div class="timeline-img" id="img-einstein"></div>
+                        <div class="timeline-content">
+                            <h3>Albert Einstein</h3>
+                            <span class="timeline-era">1879 - 1955</span>
+                            <p class="timeline-details">A theoretical physicist, widely acknowledged to be one of the greatest physicists of all time. He is best known for developing the theory of relativity (E=mc²).</p>
+                            <span class="expand-hint">Click to expand</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-img" id="img-schumacher"></div>
+                        <div class="timeline-content">
+                            <h3>Michael Schumacher</h3>
+                            <span class="timeline-era">1969 - Present</span>
+                            <p>A former racing driver who competed in Formula One. He holds a joint-record seven World Drivers' Championship titles and is regarded as one of the greatest F1 drivers in history.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Architecture -->
+        <section id="architecture" class="section animate-on-scroll">
+            <div class="content-wrapper row-reverse">
+                <div class="text-content">
+                    <h2>Majestic <span class="highlight-gold">Architecture</span></h2>
+                    <p>Germany's architectural landscape spans from ancient Roman artifacts to postmodern masterpieces.</p>
+                    <p><strong>Castles:</strong> Over 20,000 palaces and castles dot the country. Explore the gallery to see some of the most famous ones!</p>
+                    <p><strong>Styles:</strong> You can find well-preserved medieval cities (like Rothenburg ob der Tauber), distinct Gothic cathedrals, and the influential Bauhaus school of modern design.</p>
+                </div>
+                
+                <!-- Castle Slider -->
+                <div class="slider-container">
+                    <div class="slider" id="castle-slider">
+                        <div class="slide active-slide" id="img-neuschwanstein">
+                            <div class="slide-caption">Neuschwanstein Castle</div>
+                        </div>
+                        <div class="slide" id="img-burgeltz">
+                            <div class="slide-caption">Burg Eltz</div>
+                        </div>
+                        <div class="slide" id="img-hohenzollern">
+                            <div class="slide-caption">Hohenzollern Castle</div>
+                        </div>
+                    </div>
+                    <button class="slider-btn prev-btn" onclick="moveSlider(-1)">&#10094;</button>
+                    <button class="slider-btn next-btn" onclick="moveSlider(1)">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5.5 Map -->
+        <section id="map" class="section dark-section animate-on-scroll">
+            <div class="container-column">
+                <h2 class="text-center">Interactive <span class="highlight-red">Map</span></h2>
+                <div class="map-container">
+                    <!-- Accurate SVG representation of Germany outline -->
+                    <svg viewBox="0 0 500 650" class="germany-svg">
+                        <!-- Germany Border Path -->
+                        <path d="M211,0 L220,15 L240,12 L250,25 L260,25 L275,10 L310,25 L330,40 L345,35 L350,55 L365,65 L375,90 L360,120 L380,140 L395,145 L420,175 L420,195 L445,210 L440,240 L460,255 L475,285 L480,310 L465,335 L485,355 L480,380 L495,400 L490,430 L470,450 L465,475 L435,490 L400,505 L370,520 L350,545 L320,535 L300,550 L275,565 L260,600 L245,615 L220,630 L205,620 L180,640 L160,630 L135,605 L120,580 L140,560 L135,530 L115,510 L90,520 L70,495 L50,470 L25,445 L15,410 L25,380 L5,355 L15,330 L35,310 L50,280 L25,255 L10,220 L25,190 L50,165 L70,140 L50,110 L75,85 L100,60 L125,50 L150,25 L180,15 Z" fill="#333" stroke="var(--color-gold)" stroke-width="2" class="svg-map-path"/>
+                        
+                        <!-- Map Pins (Approximate coordinates mapped to the viewBox) -->
+                        <g class="map-pin" transform="translate(370, 180)" onclick="selectCity(this, 'Berlin', 'Capital city, known for its art scene, modern history, and the iconic Brandenburg Gate.')">
+                            <circle cx="0" cy="0" r="8" fill="var(--color-red)"/>
+                            <text x="15" y="5" fill="white">Berlin</text>
+                        </g>
+                        <g class="map-pin" transform="translate(280, 520)" onclick="selectCity(this, 'Munich (München)', 'Capital of Bavaria, famous for Oktoberfest, high-tech industry, and beautiful architecture.')">
+                            <circle cx="0" cy="0" r="8" fill="var(--color-red)"/>
+                            <text x="15" y="5" fill="white">Munich</text>
+                        </g>
+                        <g class="map-pin" transform="translate(220, 110)" onclick="selectCity(this, 'Hamburg', 'Major port city in northern Germany, known for its extensive canals and maritime heritage.')">
+                            <circle cx="0" cy="0" r="8" fill="var(--color-red)"/>
+                            <text x="15" y="5" fill="white">Hamburg</text>
+                        </g>
+                        <g class="map-pin" transform="translate(90, 310)" onclick="selectCity(this, 'Cologne (Köln)', '2,000-year-old city spanning the Rhine river, famous for its High Gothic cathedral.')">
+                            <circle cx="0" cy="0" r="8" fill="var(--color-red)"/>
+                            <text x="-65" y="5" fill="white">Cologne</text>
+                        </g>
+                        <g class="map-pin" transform="translate(180, 390)" onclick="selectCity(this, 'Frankfurt', 'Central German city on the river Main, a major financial hub and home to the European Central Bank.')">
+                            <circle cx="0" cy="0" r="8" fill="var(--color-red)"/>
+                            <text x="15" y="5" fill="white">Frankfurt</text>
+                        </g>
+                    </svg>
+                    <div class="city-tooltip" id="city-tooltip">
+                        <h4 id="city-title">Explore Germany</h4>
+                        <p id="city-desc">Click on a red pin to learn more about a major city.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Famous Places -->
+        <section id="places" class="section dark-section animate-on-scroll">
+            <div class="container-column">
+                <h2 class="text-center">Famous <span class="highlight-red">Landmarks</span></h2>
+                <div class="cards-gallery">
+                    <div class="gallery-card">
+                        <div class="card-img" id="img-brandenburg"></div>
+                        <div class="card-info">
+                            <h3>Brandenburg Gate</h3>
+                            <p>An 18th-century neoclassical monument in Berlin, a symbol of European unity and peace.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-card">
+                        <div class="card-img" id="img-cologne"></div>
+                        <div class="card-info">
+                            <h3>Cologne Cathedral</h3>
+                            <p>A renowned monument of German Catholicism and Gothic architecture, and a World Heritage Site.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-card">
+                        <div class="card-img" id="img-blackforest"></div>
+                        <div class="card-info">
+                            <h3>The Black Forest</h3>
+                            <p>A mountainous region in southwest Germany covered in dense evergreen forests and picturesque villages.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Problems and Modern Challenges -->
+        <section id="challenges" class="section animate-on-scroll conclusion-section">
+            <div class="content-wrapper">
+                <div class="text-content full-width text-center">
+                    <h2>Modern <span class="highlight-gold">Challenges</span></h2>
+                    <p class="lead-text">Like any major nation, Germany faces contemporary issues while striving for progress.</p>
+                    <div class="challenges-grid">
+                        <div class="challenge-box">
+                            <div class="icon">📈</div>
+                            <h3>Economy & Aging</h3>
+                            <p><strong>Issue:</strong> An aging population puts pressure on the pension system, and transitioning the mighty automotive industry to EVs is challenging.</p>
+                            <p><strong>Solutions:</strong> Investing heavily in AI, green tech startups, and incentivizing skilled immigration.</p>
+                        </div>
+                        <div class="challenge-box">
+                            <div class="icon">🌍</div>
+                            <h3>Migration</h3>
+                            <p><strong>Issue:</strong> Integrating a large influx of refugees and addressing societal polarization.</p>
+                            <p><strong>Solutions:</strong> Enhanced language and job-training programs to integrate newcomers into the workforce swiftly.</p>
+                        </div>
+                        <div class="challenge-box">
+                            <div class="icon">⚡</div>
+                            <h3>Energy Transition</h3>
+                            <p><strong>Issue:</strong> The "Energiewende" (Energy Turnaround) aims to move to renewables, but phasing out nuclear and coal has caused short-term price spikes.</p>
+                            <p><strong>Solutions:</strong> Massive investments in wind and solar infrastructure, and expanding the European power grid.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Made for Educational Presentation Purposes</p>
+            <div class="flag-bar">
+                <div class="stripe black"></div>
+                <div class="stripe red"></div>
+                <div class="stripe gold"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
