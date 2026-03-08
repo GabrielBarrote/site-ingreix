@@ -471,26 +471,26 @@ footer { text-align: center; padding: 3rem 1rem; background-color: var(--color-b
 /* Injected Images from Generator */
 .hero-bg {
     position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Brandenburger_Tor_abends.jpg/1280px-Brandenburger_Tor_abends.jpg');
+    background-image: url('imagens/real_brandenburg.jpg');
     background-size: cover; background-position: center; opacity: 0.15;
 }
 
-#img-intro { background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Brandenburger_Tor_abends.jpg/1280px-Brandenburger_Tor_abends.jpg'); }
-#img-culture { background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b0/German_Bratw%C3%BCrste.jpg'); }
-#img-football { background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/stadium_football_1773007764005.png'); }
-#img-beethoven { background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/beethoven_1773007778085.png'); }
-#img-einstein { background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/einstein_1773007791688.png'); }
-#img-schumacher { background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/schumacher_1773007806182.png'); }
-#img-bismarck { background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/bismarck_1773008383097.png'); }
+#img-intro { background-image: url('imagens/real_brandenburg.jpg'); }
+#img-culture { background-image: url('imagens/real_food.jpg'); }
+#img-football { background-image: url('imagens/stadium_football.png'); }
+#img-beethoven { background-image: url('imagens/beethoven.png'); }
+#img-einstein { background-image: url('imagens/einstein.png'); }
+#img-schumacher { background-image: url('imagens/schumacher.png'); }
+#img-bismarck { background-image: url('imagens/bismarck.png'); }
 
-#img-mercedes { background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/mercedes_benz_1773008340507.png'); }
-#img-bmw { background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/bmw_performance_1773008353245.png'); }
-#img-audi { background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/audi_rs6_photorealistic_1773009499288.png'); }
+#img-mercedes { background-image: url('imagens/mercedes_benz.png'); }
+#img-bmw { background-image: url('imagens/bmw.png'); }
+#img-audi { background-image: url('imagens/audi.png'); }
 
-#img-neuschwanstein { background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/neuschwanstein_1773007831404.png'); }
-#img-burgeltz { background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/burg_eltz_1773008397533.png'); }
-#img-hohenzollern { background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/hohenzollern_1773008414592.png'); }
+#img-neuschwanstein { background-image: url('imagens/neuschwanstein.png'); }
+#img-burgeltz { background-image: url('imagens/burg_eltz.png'); }
+#img-hohenzollern { background-image: url('imagens/hohenzollern.png'); }
 
-#img-brandenburg { background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/brandenburg_1773007849465.png'); }
-#img-cologne { background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/cologne_1773007864852.png'); }
-#img-blackforest { background-image: url('file:///C:/Users/gabri/.gemini/antigravity/brain/0acac1e6-a571-48b0-a410-5515ccbc5e17/blackforest_1773007879255.png'); }
+#img-brandenburg { background-image: url('imagens/brandenburg.png'); }
+#img-cologne { background-image: url('imagens/cologne.png'); }
+#img-blackforest { background-image: url('imagens/blackforest.png'); }
